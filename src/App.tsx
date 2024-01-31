@@ -5,13 +5,12 @@
 // import { ContadorCustomHook } from "./components/ContadorCustomHook";
 // import { ComponenteUseEfect } from "./components/ComponenteUseEfect";
 // import { Login } from "./components/Login";
-// import { Usuarios } from "./components/Usuarios";
+import { Usuarios } from "./components/Usuarios";
 // import { AreaCuadrado } from "./components/tarea1/AreaCuadrado";
 // import { SumaArreglo } from "./components/tarea1/SumaArreglo";
 // import { ArregloDiv5 } from "./components/tarea1/ArrregloDiv5";
 // import { Alumno } from "./components/tarea1/Alumno";
-
-import { Acumulador5 } from "./components/tarea1/Acumulador5";
+// import { Acumulador5 } from "./components/tarea1/Acumulador5";
 
 
 //Componente App
@@ -27,12 +26,12 @@ const App = ()=>{
       {/* <ContadorCustomHook/> */}
       {/* <ComponenteUseEfect/> */}
       {/* <Login/> */}
-      {/* <Usuarios/> */}
+      <Usuarios/>
       {/* <AreaCuadrado/> */}
       {/* <SumaArreglo/> */}
       {/* <ArregloDiv5/> */}
       {/* <Alumno/> */}
-      <Acumulador5/>
+      {/* <Acumulador5/> */}
     </div>
   )
 }
